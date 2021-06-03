@@ -1,5 +1,6 @@
 import os
 import logging
+import asyncio
 from pyrogram import Client, filters
 from telegraph import upload_file
 from config import Config
